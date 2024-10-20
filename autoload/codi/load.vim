@@ -206,7 +206,7 @@ let s:codi_default_interpreters = {
          \ 'quitcmd': 'exit',
          \ },
       \ 'nim': {
-          \ 'bin': ['inim'],
+          \ 'bin': ['inim',  '--noAutoIndent','-d:--warnings:off', '-d:hints:off', '-d:--spellSuggest:0'],
           \ 'prompt': '^\(nim>\|\.\.\.\) ',
           \ },
       \ }
